@@ -1,11 +1,11 @@
 @font-face {
     font-family: Square;
-    src: url("LaAventuraDeYanay/data/mayan_square.ttf") format("ttf");
+    src: url("../data/mayan_square.ttf") format("ttf");
 }
 
 @font-face {
     font-family: Outer;
-    src: url("LaAventuraDeYanay/data/Outer_Sans.otf") format("otf");
+    src: url("../data/Outer_Sans.otf") format("otf");
 }
 
 canvas {
@@ -25,7 +25,7 @@ canvas {
 }
 
 body {
-    background-image: url("LaAventuraDeYanay/data/bg.jpg");
+    background-image: url("../data/bg.jpg");
     background-size: 200px 200px;
 }
 
@@ -98,6 +98,7 @@ button:not(.accordion-button){
     padding: 30px;
 
 }
+
 
 
 
