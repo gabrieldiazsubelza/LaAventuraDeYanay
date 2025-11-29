@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Aventura de Yanay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1>El Viaje de Yanay</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="produccion.html">Producción</a>
+                    <a class="nav-link" href="tematica.html">Temática</a>
+                    <a class="nav-link" href="equipo.html">Sobre el equipo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pt-4 prod-bg">
+        <div class="row prod-txt">
+            <div class="col">
+                <h2><strong>El viaje hacia El Viaje de Yanay</strong></h2>
+                <h6>Bien, para poder explicar el proceso de producción, lo vamos a separar en partes.</h6>
+            </div>
+        </div>
+        <div class="row prod-txt">
+            <div class="col-9">
+                <h4>Idea de la historia</h4>
+                <p>
+                    Durante el periodo en el cual investigamos sobre la mitología Incaica, descubrimos que en la
+                    cosmovisión Incaica se consideraba que la existencia se desarrollaba en tres planos: el Hurin Pacha,
+                    una especie de sincretismo al infierno cristiano; el Hanan Pacha, una especie de sincretismo al
+                    cielo cristiano; y el Kay Pacha, el plano de los vivos. Esto nos dio el pie para pensar en los tres
+                    finales posibles y requeridos por la consigna, donde en cada final el jugador termine en uno de
+                    estos planos.
+                </p>
+            </div>
+            <div class="col-3">
+                <img src="/data/supay.png" class="img-fluid" alt="Ilustración del rey Supay.">
+            </div>
+        </div>
+        <div class="row prod-txt">
+            <div class="col-3">
+                <img src="/data/yanay.png" class="img-fluid" alt="Ilustración de Yanay.">
+            </div>
+            <div class="col-9">
+                <h4>Diseño artistico</h4>
+                <p>
+                    Optamos por adaptarnos a la estética de la serie Hora de Aventura, que comparte muchos conceptos con
+                    nuestra historia, como por ejemplo la de siempre contar con bosques, salas de trono, mundo de los
+                    muertos y deidades de este, básicamente todo lo que contiene nuestra aventura.
+                    Cada elemento de las imágenes son dibujos png hechos por nosotros dos, para luego unirlos en una
+                    pantalla, incluso el logo de inicio es un dibujo.
+                </p>
+            </div>
+        </div>
+        <div class="row prod-txt">
+            <div class="col-9">
+                <h4>Creación del código</h4>
+                <p>
+                    Usando p5js, creamos un código en el cual se usaron variables de pantalla para poder ir pasando a
+                    través de ellas, según que opción elegimos.
+                    Las imágenes y sonidos están cargados por la función de preload. El sonido elegido es uno de un
+                    click, en el cual aplicamos para que se reproduzca cada vez que se apriete algunos de los botones.
+                    Para agilizar el proceso de producción, al momento de crear los botones de volver al menú y el de
+                    créditos, reutilizamos el botón para que aparezca en los 3 finales.
+                    La aventura gráfica tiene la característica de no ser lineal, por lo tanto en algunas pantallas
+                    tendrás la particularidad de poder tomar un camino diferente, esto te llevará a un resultado
+                    alternativo, según que opción tomes, te conducirá a uno de los 3 finales.
+                    Luego de tener todo hecho, tuvimos que pasar a la instancia de pruebas, de llegar a los 3 finales un
+                    par de veces, para corroborar que cada opción funciona a la perfección.
+                </p>
+            </div>
+            <div class="col-3">
+                <img src="/data/pachamama.png" class="img-fluid" alt="Ilustración de la Pachamama.">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Aventura de Yanay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1>El Viaje de Yanay</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="produccion.html">Producción</a>
+                    <a class="nav-link" href="tematica.html">Temática</a>
+                    <a class="nav-link" href="equipo.html">Sobre el equipo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container ind-main text-center">
+        <div class="row">
+            <div class="col mx-auto">
+                <h1>¡Bienvenidos viajeros!</h1>
+                <h3>¿Están deseando adentrarse en una historia interactiva con temática del más allá y múltiples finales? Estás en el lugar correcto.</h3>
+                <h3>Estás a punto de cruzar la puerta con Yanay y adentrarte en esta aventura.</h3>
+                <h6>Si revisas el menu de arriba, podrás obtener más información sobre la creación del juego y sus creadores.</h6>
+                <h1>Esperamos que lo disfrutes.</h1>
+
+                <button type="button" class="btn btn-primary btn-ind" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    JUGAR
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="p5/index.html" frameborders="0" width="100%" height="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

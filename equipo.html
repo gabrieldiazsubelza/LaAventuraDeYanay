@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Aventura de Yanay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1>El Viaje de Yanay</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="produccion.html">Producción</a>
+                    <a class="nav-link" href="tematica.html">Temática</a>
+                    <a class="nav-link active" aria-current="page" href="equipo.html">Sobre el equipo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-lau-tab" data-bs-toggle="tab" data-bs-target="#nav-lau"
+                            type="button" role="tab" aria-controls="nav-lau" aria-selected="true">
+                            <h4>Lautaro</h4>
+                        </button>
+                        <button class="nav-link" id="nav-gabi-tab" data-bs-toggle="tab" data-bs-target="#nav-gabi"
+                            type="button" role="tab" aria-controls="nav-gabi" aria-selected="false">
+                            <h4>Gabriel</h4>
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-lau" role="tabpanel" aria-labelledby="nav-lau-tab"
+                        tabindex="0">
+                        <div class="container pt-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="desc">
+                                        Soy Lautaro Chirino estudiante de la carrera de Licenciatura en Diseño
+                                        Multimedial, si bien yo estoy más naturalizado con lo que es dibujo y demás, la
+                                        parte de programación no se me hizo tan complicada como pensé que sería, al
+                                        punto de poder hacer trabajos que me dejaron satisfecho y cumplieron mis
+                                        expectativas.
+                                        Personalmente disfruté la etapa final 2, que era el mini juego, desde la
+                                        concepción, el arte y el tratamiento del código.
+                                        Actualmente estoy dispuesto a seguir aprendiendo cosas de programación en los
+                                        años venideros.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/data/lau.jpg" class="img-fluid float-end img-desc"
+                                        alt="Una foto de Lautaro.">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-gabi" role="tabpanel" aria-labelledby="nav-gabi-tab"
+                        tabindex="0">
+                        <div class="container pt-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="desc">
+                                        ¡Hola, soy Gabriel Diaz Subelza!
+                                        Soy estudiante de Diseño Multimedial, y aunque debo admitir que no soy muy
+                                        dado, me gusta bastante la programación, especialmente para web.
+                                        Los trabajos realizados durante este cuatrimestre me resultaron muy entretenidos
+                                        de programar, y quedé bastante satisfecho con los resultados.
+                                        Estoy considerablemente emocionado por lo que se viene en cuanto a programación, y espero estar a la altura del desafio.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/data/gabi.jpg" class="img-fluid float-end img-desc"
+                                        alt="Una foto de Gabriel.">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+
+        Array.from(document.querySelectorAll('.toast'))
+            .forEach(toastNode => new Toast(toastNode))
+    </script>
+</body>
+
+</html>
