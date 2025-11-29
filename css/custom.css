@@ -1,11 +1,11 @@
 @font-face {
     font-family: Square;
-    src: url("../data/mayan_square.ttf") format("truetype");
+    src: url("../data/mayan_square.ttf") format("truetype"), url("../data/mayan_square.woff") format("woff");
 }
 
 @font-face {
     font-family: Outer;
-    src: url("../data/Outer_Sans.otf") format("opentype");
+    src: url("../data/Outer_Sans.otf") format("opentype"), url("../data/Outer_Sans.woff") format("woff");
 }
 
 canvas {
@@ -98,6 +98,7 @@ button:not(.accordion-button){
     padding: 30px;
 
 }
+
 
 
 
