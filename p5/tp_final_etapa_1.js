@@ -16,22 +16,22 @@ let fondoFinal1, fondoFinal2, fondoFinal3;
 
 function preload() {
   soundFormats("mp3", "ogg");
-  click = loadSound("/p5/data/click.mp3");
-  imgTitulo = loadImage("/p5/data/titulo.webp");
-  fondo0 = loadImage("/p5/data/pantalla0.webp");
-  fondo1 = loadImage("/p5/data/pantalla1.webp");
-  fondo2 = loadImage("/p5/data/pantalla2.webp");
-  fondo3 = loadImage("/p5/data/pantalla3.webp");
-  fondo4 = loadImage("/p5/data/pantalla4.webp");
-  fondo7 = loadImage("/p5/data/pantalla7.webp");
-  fondo8 = loadImage("/p5/data/pantalla8.webp");
-  fondo9 = loadImage("/p5/data/pantalla9.webp");
-  fondo11 = loadImage("/p5/data/pantalla11.webp");
-  fondo12 = loadImage("/p5/data/pantalla12.webp");
-  fondo13 = loadImage("/p5/data/pantalla13.webp");
-  fondoFinal1 = loadImage("/p5/data/final1b.webp");
-  fondoFinal2 = loadImage("/p5/data/final2.webp");
-  fondoFinal3 = loadImage("/p5/data/final3.webp");
+  click = loadSound("data/click.mp3");
+  imgTitulo = loadImage("data/titulo.webp");
+  fondo0 = loadImage("data/pantalla0.webp");
+  fondo1 = loadImage("data/pantalla1.webp");
+  fondo2 = loadImage("data/pantalla2.webp");
+  fondo3 = loadImage("data/pantalla3.webp");
+  fondo4 = loadImage("data/pantalla4.webp");
+  fondo7 = loadImage("data/pantalla7.webp");
+  fondo8 = loadImage("data/pantalla8.webp");
+  fondo9 = loadImage("data/pantalla9.webp");
+  fondo11 = loadImage("data/pantalla11.webp");
+  fondo12 = loadImage("data/pantalla12.webp");
+  fondo13 = loadImage("data/pantalla13.webp");
+  fondoFinal1 = loadImage("data/final1b.webp");
+  fondoFinal2 = loadImage("data/final2.webp");
+  fondoFinal3 = loadImage("data/final3.webp");
 }
 
 function setup() {
@@ -270,5 +270,6 @@ function mousePressed() {
     checkBotonDerecho(9);
   }
 }
+
 
 
