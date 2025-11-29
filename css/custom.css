@@ -17,11 +17,11 @@ canvas {
 }
 
 .navbar-brand {
-    font-family: Square;
+    font-family: "Square";
 }
 
 .navbar-nav, h2, h3, h4, h6, p{
-    font-family: Outer;
+    font-family: "Outer";
 }
 
 body {
@@ -98,6 +98,7 @@ button:not(.accordion-button){
     padding: 30px;
 
 }
+
 
 
 
